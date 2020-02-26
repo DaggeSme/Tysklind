@@ -1,0 +1,70 @@
+header img {
+    height: 30px;
+}
+body {
+    height: 125vh;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    margin-top: 45px;
+    padding: 30px;
+	align-text: center;
+}
+
+main {
+    color: white;
+}
+
+header {
+    background-color: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+	display: flex;
+	align-items: center;
+}
+
+header *{
+	display: inline;
+}
+header li{
+	margin: 20px;
+}
+header li a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Teko', sans-serif;
+	font-size: 25px;	
+}
+#uttrar{
+	background-image: url('https://cdn.cienradios.com/wp-content/uploads/sites/3/2019/06/oc%C3%A9ano-atl%C3%A1ntico-tesoro-reserva-de-agua.jpg');
+}
+
+#Välkommen{
+	font-size:50px;
+}
+
+
+#storlek{
+}
+
+.top{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+
+
+
+@media screen and (max-width: 500px){
+	#storlek{
+		width: 60%;
+	}
+}
